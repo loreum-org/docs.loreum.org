@@ -13,7 +13,7 @@
 const config = {
   title: 'My Site',
   tagline: 'The tagline of my site',
-  url: 'https://your-docusaurus-test-site.com',
+  url: 'https://docs.loreum.org',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -21,8 +21,8 @@ const config = {
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'facebook', // Usually your GitHub org/user name.
-  projectName: 'docusaurus', // Usually your repo name.
+  organizationName: 'loreum', // Usually your GitHub org/user name.
+  projectName: 'docs.loreum.org', // Usually your repo name.
 
   presets: [
     [
@@ -69,7 +69,7 @@ const config = {
           {to: 'blog', label: 'Blog', position: 'left'},
           // Please keep GitHub link to the right for consistency.
           {
-            href: 'https://github.com/facebook/docusaurus',
+            href: 'https://github.com/loreum-org/docs.loreum.org',
             label: 'GitHub',
             position: 'right',
           },
