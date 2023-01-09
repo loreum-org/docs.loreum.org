@@ -1,0 +1,48 @@
+name: Deploy Docs.Loreum.Org
+
+on:
+  push:
+    branches:
+      - 'main'
+
+  # Allows you to run this workflow manually from the Actions tab
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    env:
+      GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+    steps:
+      - uses: actions/checkout@v1
+      - uses: actions/setup-node@v2
+        with:
+          node-version: '14'
+      - name: Configure AWS Credentials
+        uses: aws-actions/configure-aws-credentials@v1
+        with:
+          aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID }}
+          aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+          aws-region: us-east-2
+      - name: Check out the repo
+        uses: actions/checkout@v2
+      - name: Install Node Modules
+        run: yarn install
+      - name: Build the Page
+        env:
+          AWS_BUCKET_NAME: docs.loreum.org
+          HOSTNAME: docs.loreum.org
+          GATSBY_API_URL: https://docs.loreum.org
+        run: NODE_OPTIONS=--max_old_space_size=4096 yarn build
+      - name: Deploy to S3
+        run: yarn deploy
+
+      # If the PR has the label release:major, release:minor,
+        # or release:patch, this will override bump_version_scheme.
+      - id: Release
+        uses: rymndhng/release-on-push-action@master
+        with:
+          bump_version_scheme: patch
+          tag_prefix: v
+          release_name: 'Production <RELEASE_TAG>'
+          use_github_release_notes: true
