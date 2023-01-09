@@ -32,10 +32,11 @@ jobs:
         env:
           AWS_BUCKET_NAME: docs.loreum.org
           HOSTNAME: docs.loreum.org
-          GATSBY_API_URL: https://docs.loreum.org
+
+
         run: NODE_OPTIONS=--max_old_space_size=4096 yarn build
       - name: Deploy to S3
-        run: yarn deploy
+        run: GIT_USER=xhad && USE_SSH=true && yarn deploy
 
       # If the PR has the label release:major, release:minor,
         # or release:patch, this will override bump_version_scheme.
