@@ -81,14 +81,6 @@ const config = {
           {
             title: 'Learn',
             items: [
-              {
-                label: 'Style Guide',
-                to: 'docs/',
-              },
-              {
-                label: 'Second Doc',
-                to: 'docs/doc2',
-              },
             ],
           },
           {
