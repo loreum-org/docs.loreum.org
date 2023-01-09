@@ -9,41 +9,37 @@ on:
   workflow_dispatch:
 
 jobs:
-  build:
+  run:
     runs-on: ubuntu-latest
     env:
-      GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
+      AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
     steps:
-      - uses: actions/checkout@v1
-      - uses: actions/setup-node@v2
-        with:
-          node-version: '16.14'
-      - name: Configure AWS Credentials
-        uses: aws-actions/configure-aws-credentials@v1
-        with:
-          aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID }}
-          aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
-          aws-region: us-east-2
-      - name: Check out the repo
-        uses: actions/checkout@v2
-      - name: Install Node Modules
-        run: yarn install
-      - name: Build the Page
-        env:
-          AWS_BUCKET_NAME: docs.loreum.org
-          HOSTNAME: docs.loreum.org
+        - uses: actions/checkout@v3
 
+        - name: Install dependencies
+          run: yarn
 
-        run: NODE_OPTIONS=--max_old_space_size=4096 yarn build
-      - name: Deploy to S3
-        run: GIT_USER=xhad && USE_SSH=true && yarn deploy
+        - name: Build
+          run: yarn build
 
-      # If the PR has the label release:major, release:minor,
-        # or release:patch, this will override bump_version_scheme.
-      - id: Release
-        uses: rymndhng/release-on-push-action@master
-        with:
-          bump_version_scheme: patch
-          tag_prefix: v
-          release_name: 'Production <RELEASE_TAG>'
-          use_github_release_notes: true
+        - name: Deploy
+          uses: reggionick/s3-deploy@v3
+          with:
+            folder: build
+            bucket: docs.loreum.org
+            bucket-region: us-east-2
+            dist-id: E288ZGII2UZKS2
+            invalidation: /
+            delete-removed: true
+            no-cache: true
+            private: true
+            filesToInclude: ".*/*,*/*,**"
+
+        - name: Release
+          uses: rymndhng/release-on-push-action@master
+          with:
+            bump_version_scheme: patch
+            tag_prefix: v
+            release_name: 'Production <RELEASE_TAG>'
+            use_github_release_notes: true
