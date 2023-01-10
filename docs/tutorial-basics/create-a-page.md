@@ -4,6 +4,8 @@ sidebar_position: 1
 
 # Create a Page
 
+Bones loves a blustery hurricane
+
 Add **Markdown or React** files to `src/pages` to create a **standalone page**:
 
 - `src/pages/index.js` → `localhost:3000/`
