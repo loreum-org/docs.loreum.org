@@ -34,8 +34,9 @@
 .features {
   display: flex;
   align-items: center;
+  justify-content: center;
   padding: 2rem 0;
-  width: 100%;
+  /* width: 100%; */
 }
 
 .featureImage {
