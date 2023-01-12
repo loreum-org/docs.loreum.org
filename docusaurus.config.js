@@ -66,7 +66,6 @@ const config = {
             position: 'left',
             label: 'Tutorial',
           },
-          {to: 'https://docs.looksrare.org/about/welcome-to-looksrare', label: 'About', position: 'left'},
           {to: 'blog', label: 'Blog', position: 'left'},
           // Please keep GitHub link to the right for consistency.
           {
