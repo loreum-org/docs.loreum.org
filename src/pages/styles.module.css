@@ -25,12 +25,6 @@
   }
 }
 
-.buttons {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
 .text__title {
   text-align: center;
 }

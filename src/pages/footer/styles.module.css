@@ -1,0 +1,56 @@
+.flex__box {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.features__link {
+  padding: 1rem;
+  text-align: center;
+  background-color: #2C3850;
+}
+
+.features__link_1 {
+  padding: 1rem;
+  text-align: center;
+  background-color: #4B576F;
+}
+
+.features__link_2 {
+  padding: 1rem;
+  text-align: center;
+  background-color: 6A768E;
+}
+
+.link__social {
+  color: #fff;
+}
+
+.footer__bottom {
+  background-color: #1b1f22;
+}
+
+.img__logo {
+  max-width: 3rem;
+}
+
+.image {
+  padding: 0.2rem;
+}
+
+.flex__bottom {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 0 0 0 5rem;
+  color: #a2a9b0;
+}
+
+
+.footer__title {
+  padding: 0 2rem 0 0;
+}
+
+.footer__text {
+  padding: 1rem 0 0 0;
+}
