@@ -96,12 +96,12 @@ const config = {
         style: 'dark',
         links: [
           {
-            title: 'Learn',
+            title: 'About',
             items: [
             ],
           },
           {
-            title: 'Community',
+            title: 'Guides',
             items: [
               {
                 label: 'Stack Overflow',
@@ -118,7 +118,7 @@ const config = {
             ],
           },
           {
-            title: 'More',
+            title: 'Developer',
             items: [
               {
                 label: 'Blog',
@@ -131,7 +131,7 @@ const config = {
             ],
           },
           {
-            title: 'Legal',
+            title: 'Link',
             // Please do not remove the privacy and terms, it's a legal requirement.
             items: [
               {
