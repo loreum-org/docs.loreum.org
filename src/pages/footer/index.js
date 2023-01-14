@@ -29,9 +29,9 @@ import styles from './styles.module.css';
 
 const featureLogo = [
   {
-    title: 'My Meta Project',
-    alt: 'My Meta Project Logo',
-    src: 'img/logo.svg',
+    title: 'Loreum',
+    alt: 'Loreum Logo',
+    src: 'https://cdn.loreum.org/logos/white.svg',
   }
 ];
 

@@ -29,8 +29,10 @@
   background-color: #1b1f22;
 }
 
+
 .img__logo {
-  max-width: 3rem;
+  height: 6rem;
+  width: 6rem;
 }
 
 .image {
