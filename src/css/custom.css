@@ -15,7 +15,7 @@
 
 /* You can override the default Infima variables here. */
 
-@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cairo&display=swap');
 
 :root {
   --ifm-color-primary: #2e8555;
@@ -40,5 +40,5 @@
 }
 
 body {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Cairo', sans-serif;
 }
