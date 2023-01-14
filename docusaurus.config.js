@@ -65,12 +65,13 @@ const config = {
 
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
+
     ({
       navbar: {
-        title: 'My Meta Project',
+        title: 'Loreum',
         logo: {
           alt: 'My Meta Project Logo',
-          src: 'img/logo.svg',
+          src: 'https://cdn.loreum.org/logos/white.svg',
         },
         items: [
           {
@@ -162,6 +163,11 @@ const config = {
         },
         // Please do not remove the credits, help to publicize Docusaurus :)
         copyright: `Copyright © ${new Date().getFullYear()} Meta Platforms, Inc. Built with Docusaurus.`,
+      },
+      colorMode: {
+        defaultMode: 'dark',
+        disableSwitch: false,
+        respectPrefersColorScheme: true,
       },
     }),
 };
