@@ -49,15 +49,29 @@ const config = {
       }),
     ],
   ],
+  i18n: {
+    defaultLocale: 'en',
+    locales: ['en', 'fr'],
+    localeConfigs: {
+      en: {
+        htmlLang: 'en-GB',
+      },
+      // You can omit a locale (e.g. fr) if you don't need to override the defaults
+      fa: {
+        direction: 'rtl',
+      },
+    },
+  },
 
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
+
     ({
       navbar: {
-        title: 'My Meta Project',
+        title: 'Loreum',
         logo: {
           alt: 'My Meta Project Logo',
-          src: 'img/logo.svg',
+          src: 'https://cdn.loreum.org/logos/white.svg',
         },
         items: [
           {
@@ -73,18 +87,22 @@ const config = {
             label: 'GitHub',
             position: 'right',
           },
+          {
+            type: 'localeDropdown',
+            position: 'right',
+          },
         ],
       },
       footer: {
         style: 'dark',
         links: [
           {
-            title: 'Learn',
+            title: 'About',
             items: [
             ],
           },
           {
-            title: 'Community',
+            title: 'Guides',
             items: [
               {
                 label: 'Stack Overflow',
@@ -101,7 +119,7 @@ const config = {
             ],
           },
           {
-            title: 'More',
+            title: 'Developer',
             items: [
               {
                 label: 'Blog',
@@ -114,7 +132,7 @@ const config = {
             ],
           },
           {
-            title: 'Legal',
+            title: 'Link',
             // Please do not remove the privacy and terms, it's a legal requirement.
             items: [
               {
@@ -145,6 +163,11 @@ const config = {
         },
         // Please do not remove the credits, help to publicize Docusaurus :)
         copyright: `Copyright © ${new Date().getFullYear()} Meta Platforms, Inc. Built with Docusaurus.`,
+      },
+      colorMode: {
+        defaultMode: 'dark',
+        disableSwitch: false,
+        respectPrefersColorScheme: true,
       },
     }),
 };
