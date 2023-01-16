@@ -11,7 +11,7 @@
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'My Site',
+  title: 'Loreum',
   tagline: 'The tagline of my site',
   url: 'https://docs.loreum.org',
   baseUrl: '/',
@@ -94,7 +94,7 @@ const config = {
         ],
       },
       footer: {
-        style: 'dark',
+        // style: 'dark',
         links: [
           {
             title: 'About',
@@ -106,15 +106,15 @@ const config = {
             items: [
               {
                 label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+                to: 'https://stackoverflow.com/questions/tagged/docusaurus',
               },
               {
                 label: 'Twitter',
-                href: 'https://twitter.com/docusaurus',
+                to: 'https://twitter.com/docusaurus',
               },
               {
                 label: 'Discord',
-                href: 'https://discordapp.com/invite/docusaurus',
+                to: 'https://discordapp.com/invite/docusaurus',
               },
             ],
           },
@@ -127,7 +127,7 @@ const config = {
               },
               {
                 label: 'GitHub',
-                href: 'https://github.com/facebook/docusaurus',
+                to: 'https://github.com/facebook/docusaurus',
               },
             ],
           },
@@ -137,19 +137,19 @@ const config = {
             items: [
               {
                 label: 'Privacy',
-                href: 'https://opensource.fb.com/legal/privacy/',
+                to: 'https://opensource.fb.com/legal/privacy/',
               },
               {
                 label: 'Terms',
-                href: 'https://opensource.fb.com/legal/terms/',
+                to: 'https://opensource.fb.com/legal/terms/',
               },
               {
                 label: 'Data Policy',
-                href: 'https://opensource.fb.com/legal/data-policy/',
+                to: 'https://opensource.fb.com/legal/data-policy/',
               },
               {
                 label: 'Cookie Policy',
-                href: 'https://opensource.fb.com/legal/cookie-policy/',
+                to: 'https://opensource.fb.com/legal/cookie-policy/',
               },
             ],
           },
