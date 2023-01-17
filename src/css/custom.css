@@ -28,6 +28,7 @@
   --ifm-background-color-light: #fff;
   --ifm-color-title: #000;
   --ifm-color-subtitle: #000;
+  --ifm-color-footer: #1c1e21;
   --ifm-code-font-size: 95%;
 }
 
@@ -43,6 +44,8 @@
   --ifm-color-title: #2aa4b8;
   --ifm-color-subtitle: #fff;
   --ifm-background-color-light: #000;
+  --ifm-color-footer: #1c1e21;
+  --ifm-code-font-size: 95%;
 }
 
 body {
