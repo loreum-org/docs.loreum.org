@@ -18,25 +18,31 @@
 @import url('https://fonts.googleapis.com/css2?family=Cairo&display=swap');
 
 :root {
-  --ifm-color-primary: #2e8555;
-  --ifm-color-primary-dark: #29784c;
-  --ifm-color-primary-darker: #277148;
-  --ifm-color-primary-darkest: #205d3b;
-  --ifm-color-primary-light: #33925d;
-  --ifm-color-primary-lighter: #359962;
-  --ifm-color-primary-lightest: #3cad6e;
+  --ifm-color-primary: #2aa4b8;
+  --ifm-color-primary-dark: #7DBFD1;
+  --ifm-color-primary-darker: #248b9c;
+  --ifm-color-primary-darkest: #182D32;
+  --ifm-color-primary-light: #2eb4ca;
+  --ifm-color-primary-lighter: #33bad1;
+  --ifm-color-primary-lightest: #4fc4d7;
+  --ifm-background-color-light: #fff;
+  --ifm-color-title: #000;
+  --ifm-color-subtitle: #000;
   --ifm-code-font-size: 95%;
 }
 
 /* For readability concerns, you should choose a lighter palette in dark mode. */
 [data-theme='dark'] {
-  --ifm-color-primary: #29d878;
-  --ifm-color-primary-dark: #29784c;
-  --ifm-color-primary-darker: #277148;
-  --ifm-color-primary-darkest: #205d3b;
-  --ifm-color-primary-light: #33925d;
-  --ifm-color-primary-lighter: #359962;
-  --ifm-color-primary-lightest: #3cad6e;
+  --ifm-color-primary: #2aa4b8;
+  --ifm-color-primary-dark: #7DBFD1;
+  --ifm-color-primary-darker: #248b9c;
+  --ifm-color-primary-darkest: #182D32;
+  --ifm-color-primary-light: #2eb4ca;
+  --ifm-color-primary-lighter: #33bad1;
+  --ifm-color-primary-lightest: #4fc4d7;
+  --ifm-color-title: #2aa4b8;
+  --ifm-color-subtitle: #7DBFD1;
+  --ifm-background-color-light: #000;
 }
 
 body {
