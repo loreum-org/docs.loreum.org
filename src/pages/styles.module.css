@@ -44,11 +44,13 @@
 
 .hero__title {
   color: var(--ifm-color-title);
+  font-family: 'Cairo', sans-serif;
   font-size: 50px;
 }
 
 .hero__subtitle {
   color: var(--ifm-color-subtitle);
+  font-family: 'Cairo', sans-serif;
   font-size: 25px;
 }
 
