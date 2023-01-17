@@ -24,12 +24,16 @@
 .features__link:hover,
 .features__link_1:hover,
 .features__link_2:hover {
-  background-color: #1ae22be0;
+  background-color: #7DBFD1;
   transition: all 1s;
 }
 
 .link__social {
   color: #fff;
+}
+
+.link__social:hover {
+  color: white;
 }
 
 .footer__bottom {
