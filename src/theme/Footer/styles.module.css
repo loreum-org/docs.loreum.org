@@ -1,4 +1,4 @@
-.footer {
-  background-color: #121619;
+.footer__bg {
+  background-color: var(--ifm-color-footer);
   color: #a2a9b0;
 }

@@ -12,7 +12,7 @@
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'Loreum',
-  tagline: 'The tagline of my site',
+  tagline: 'Godspeed',
   url: 'https://docs.loreum.org',
   baseUrl: '/',
   onBrokenLinks: 'throw',
@@ -94,7 +94,6 @@ const config = {
         ],
       },
       footer: {
-        // style: 'dark',
         links: [
           {
             title: 'About',

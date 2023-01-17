@@ -41,3 +41,19 @@
   height: 200px;
   width: 200px;
 }
+
+.hero__title {
+  color: var(--ifm-color-title);
+  font-family: 'Cairo', sans-serif;
+  font-size: 50px;
+}
+
+.hero__subtitle {
+  color: var(--ifm-color-subtitle);
+  font-family: 'Cairo', sans-serif;
+  font-size: 25px;
+}
+
+.bg_main {
+  background-color: var(--ifm-background-color-light);
+}

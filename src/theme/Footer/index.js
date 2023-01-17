@@ -20,12 +20,11 @@ function Footer() {
   if (!footer) {
     return null;
   }
-  const {links, style} = footer;
+  const {links} = footer;
   return (
       <>
         <FooterLayout
-          style={style}
-          className={styles.Footer}
+          className={styles.footer__bg}
           links={links && links.length > 0 && <FooterLinks links={links} />}
           />
         <FooterDisplay />
