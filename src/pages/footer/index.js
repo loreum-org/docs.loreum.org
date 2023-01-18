@@ -62,7 +62,7 @@ export default function FooterDisplay() {
       <div className={styles.features__link}>
         <Link
           className={styles.link__social}
-          to="https://github.com/loreum-org/docs.loreum.org">
+          to="https://github.com/loreum-org">
           GitHub
         </Link>
       </div>
