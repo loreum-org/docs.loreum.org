@@ -62,21 +62,21 @@ export default function FooterDisplay() {
       <div className={styles.features__link}>
         <Link
           className={styles.link__social}
-          to="https://stackoverflow.com/questions/tagged/docusaurus">
-          Stack Overflow
+          to="https://github.com/loreum-org">
+          GitHub
         </Link>
       </div>
       <div className={styles.features__link_1}>
         <Link
           className={styles.link__social}
-          to="https://stackoverflow.com/questions/tagged/docusaurus">
+          to="https://discord.gg/JPFCJFHKxE">
           Discord
         </Link>
       </div>
       <div className={styles.features__link_2}>
         <Link
           className={styles.link__social}
-          to="https://stackoverflow.com/questions/tagged/docusaurus">
+          to="https://twitter.com/loreumdao">
           Twitter
         </Link>
       </div>

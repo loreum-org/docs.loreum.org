@@ -49,19 +49,6 @@ const config = {
       }),
     ],
   ],
-  i18n: {
-    defaultLocale: 'en',
-    locales: ['en', 'fr'],
-    localeConfigs: {
-      en: {
-        htmlLang: 'en-GB',
-      },
-      // You can omit a locale (e.g. fr) if you don't need to override the defaults
-      fa: {
-        direction: 'rtl',
-      },
-    },
-  },
 
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
@@ -79,12 +66,18 @@ const config = {
           {to: 'blog', label: 'Blog', position: 'left'},
           // Please keep GitHub link to the right for consistency.
           {
-            href: 'https://github.com/loreum-org/docs.loreum.org',
+            to: 'https://github.com/loreum-org',
             label: 'GitHub',
             position: 'right',
           },
           {
-            type: 'localeDropdown',
+            to: 'https://discord.gg/JPFCJFHKxE',
+            label: 'Discord',
+            position: 'right',
+          },
+          {
+            to: 'https://twitter.com/loreumdao',
+            label: 'Twitter',
             position: 'right',
           },
         ],
@@ -100,16 +93,12 @@ const config = {
             title: 'Guides',
             items: [
               {
-                label: 'Stack Overflow',
-                to: 'https://stackoverflow.com/questions/tagged/docusaurus',
-              },
-              {
                 label: 'Twitter',
-                to: 'https://twitter.com/docusaurus',
+                to: 'https://twitter.com/loreumdao',
               },
               {
                 label: 'Discord',
-                to: 'https://discordapp.com/invite/docusaurus',
+                to: 'https://discord.gg/JPFCJFHKxE',
               },
             ],
           },
@@ -122,7 +111,7 @@ const config = {
               },
               {
                 label: 'GitHub',
-                to: 'https://github.com/loreum-org/docs.loreum.org',
+                to: 'https://github.com/loreum-org',
               },
             ],
           },
