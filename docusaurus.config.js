@@ -83,10 +83,6 @@ const config = {
             title: 'Guides',
             items: [
               {
-                label: 'Stack Overflow',
-                to: 'https://stackoverflow.com/questions/tagged/docusaurus',
-              },
-              {
                 label: 'Twitter',
                 to: 'https://twitter.com/loreumdao',
               },
