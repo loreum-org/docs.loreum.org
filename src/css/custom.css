@@ -55,3 +55,16 @@
 body {
   font-family: 'Cairo', sans-serif;
 }
+
+.highlight {
+  background-color: #2eb5ca67;
+  border-radius: 0.5rem;
+  padding: 1rem;
+  margin: 0.5rem 0;
+}
+
+.highlight_danger {
+  background-color: #ca2e2e4b;
+  border-radius: 0.5rem;
+  padding: 1rem;
+}
