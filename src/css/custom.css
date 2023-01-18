@@ -29,6 +29,8 @@
   --ifm-color-title: #000;
   --ifm-color-subtitle: #000;
   --ifm-color-footer: #1c1e21;
+  --ifm-width-image-white: 0;
+  --ifm-width-image-dark: 3rem;
   --ifm-code-font-size: 95%;
 }
 
@@ -45,9 +47,24 @@
   --ifm-color-subtitle: #fff;
   --ifm-background-color-light: #000;
   --ifm-color-footer: #1c1e21;
+  --ifm-width-image-white: 3rem;
+  --ifm-width-image-dark: 0;
   --ifm-code-font-size: 95%;
 }
 
 body {
   font-family: 'Cairo', sans-serif;
+}
+
+.highlight {
+  background-color: #2eb5ca67;
+  border-radius: 0.5rem;
+  padding: 1rem;
+  margin: 0.5rem 0;
+}
+
+.highlight_danger {
+  background-color: #ca2e2e4b;
+  border-radius: 0.5rem;
+  padding: 1rem;
 }
