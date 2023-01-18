@@ -69,13 +69,13 @@ export default function Home() {
     <Layout
       title={`${siteConfig.title}`}
       description="Description will go into a meta tag in <head />">
-      <header className={clsx(styles.bg_main, styles.heroBanner)}>
+      <header className={clsx(styles.heroBanner)}>
         <div className="container">
           <h1 className={styles.hero__title}>{siteConfig.title}</h1>
           <p className={styles.hero__subtitle}>{siteConfig.tagline}</p>
         </div>
       </header>
-      <main className={styles.bg_main}>
+      <main>
         {features && features.length > 0 && (
           <section className={styles.features}>
             <div className="container">
