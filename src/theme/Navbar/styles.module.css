@@ -1,0 +1,14 @@
+.flex__logo {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  padding: 0.4rem 0 0 0;
+}
+
+.image__white {
+  width: var(--ifm-width-image-white);
+}
+
+.image__black {
+  width: var(--ifm-width-image-dark);
+}
