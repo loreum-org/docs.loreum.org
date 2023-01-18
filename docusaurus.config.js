@@ -66,8 +66,18 @@ const config = {
           {to: 'blog', label: 'Blog', position: 'left'},
           // Please keep GitHub link to the right for consistency.
           {
-            href: 'https://github.com/loreum-org',
+            to: 'https://github.com/loreum-org',
             label: 'GitHub',
+            position: 'right',
+          },
+          {
+            to: 'https://discord.gg/JPFCJFHKxE',
+            label: 'Discord',
+            position: 'right',
+          },
+          {
+            to: 'https://twitter.com/loreumdao',
+            label: 'Twitter',
             position: 'right',
           },
         ],
