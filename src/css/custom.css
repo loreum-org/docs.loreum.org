@@ -54,6 +54,7 @@
 
 body {
   font-family: 'Cairo', sans-serif;
+  background-color: var(--ifm-background-color-light);
 }
 
 .highlight {
