@@ -88,11 +88,11 @@ const config = {
               },
               {
                 label: 'Twitter',
-                to: 'https://twitter.com/docusaurus',
+                to: 'https://twitter.com/loreumdao',
               },
               {
                 label: 'Discord',
-                to: 'https://discordapp.com/invite/docusaurus',
+                to: 'https://discord.gg/JPFCJFHKxE',
               },
             ],
           },
