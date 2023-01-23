@@ -55,7 +55,6 @@ const config = {
 
     ({
       navbar: {
-        title: 'Loreum',
         items: [
           {
             type: 'doc',
