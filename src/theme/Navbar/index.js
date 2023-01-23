@@ -10,25 +10,33 @@
 import React from 'react';
 import NavbarLayout from '@theme/Navbar/Layout';
 import NavbarContent from '@theme/Navbar/Content';
+import Link from '@docusaurus/Link';
 import styles from './styles.module.css';
 
 function NavbarImageLogo() {
   return (
-    <div className={styles.flex__logo}>
-        <div className={styles.image__white}>
-          <img src='https://cdn.loreum.org/logos/white.svg' alt='white' />
-        </div>
-        <div className={styles.image__black}>
-          <img src='https://cdn.loreum.org/logos/black.svg' alt='black' />
-        </div>
+    <div className={styles.flex_nav}>
+      <div className={styles.flex__logo}>
+          <div className={styles.image__white}>
+            <img src='https://cdn.loreum.org/logos/white.svg' alt='white' />
+          </div>
+          <div className={styles.image__black}>
+            <img src='https://cdn.loreum.org/logos/black.svg' alt='black' />
+          </div>
+      </div>
+      <p className={styles.text_logo}>Loreum</p>
     </div>
   );
 }
 
 export default function Navbar() {
   return (
-    <NavbarLayout>
-      <NavbarImageLogo />
+    <NavbarLayout
+    className={styles.flex_navbar}
+    >
+      <Link to="/">
+        <NavbarImageLogo />
+      </Link>
       <NavbarContent />
     </NavbarLayout>
   );
