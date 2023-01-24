@@ -28,11 +28,33 @@
 
 
 .text_logo {
-  margin: 0.05rem 2rem 0 0;
+  margin: 0.02rem 0.5rem 0 0;
   color: var(--ifm-color-subtitle);
-  transition: all 1s;
 }
 
 .text_logo:hover {
   color: var(--ifm-color-primary);
+}
+
+.flex__none {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+}
+
+.flex_navbar {
+  display: none;
+}
+
+@media (max-width: 1000px) {
+  .flex_navbar {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    margin-right: calc(100% - 10%);
+  }
+
+  .flex__none {
+    display: none;
+  }
 }
