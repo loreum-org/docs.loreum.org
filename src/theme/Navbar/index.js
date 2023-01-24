@@ -15,7 +15,7 @@ import styles from './styles.module.css';
 
 function NavbarImageLogo() {
   return (
-    <div className={styles.flex_nav}>
+    <Link to="/" className={styles.flex_nav}>
       <div className={styles.flex__logo}>
           <div className={styles.image__white}>
             <img src='https://cdn.loreum.org/logos/white.svg' alt='white' />
@@ -25,19 +25,21 @@ function NavbarImageLogo() {
           </div>
       </div>
       <p className={styles.text_logo}>Loreum</p>
-    </div>
+    </Link>
   );
 }
 
 export default function Navbar() {
   return (
-    <NavbarLayout
-    className={styles.flex_navbar}
-    >
-      <Link to="/">
-        <NavbarImageLogo />
-      </Link>
-      <NavbarContent />
-    </NavbarLayout>
+        <NavbarLayout>
+          <div className={styles.flex__none}>
+            <NavbarImageLogo />
+          </div>
+            <NavbarContent />
+            <div className={styles.flex_navbar}> 
+              <NavbarImageLogo />
+            </div>
+      </NavbarLayout>
+    
   );
 }
