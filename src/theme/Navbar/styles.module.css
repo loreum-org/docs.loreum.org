@@ -2,6 +2,12 @@
   display: flex;
   justify-content: left;
   align-items: center;
+  text-decoration: none;
+}
+
+.flex_nav:hover {
+  color: var(--ifm-color-primary);
+  text-decoration: none;
 }
 
 .flex_navbar {
