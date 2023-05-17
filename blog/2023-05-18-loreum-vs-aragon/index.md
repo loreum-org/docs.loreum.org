@@ -6,7 +6,6 @@ tags: [loreum, aragon, dao]
 ---
 
 <br />
-<br />
 
 In the realm of decentralized finance (DeFi) and blockchain governance, the concept of decentralization is often touted as a cornerstone principle. However, recent events have exposed the limitations of some purportedly decentralized protocols. AragonDAO, once hailed as a decentralized governance solution, has faced criticism for its centralized decision-making and capital control. Enter Loreum, a groundbreaking protocol that not only addresses the shortcomings of AragonDAO but also introduces dynamic governance and accountability through a unique staking mechanism. In this article, we will explore why Loreum represents a promising alternative to AragonDAO and offers a more transparent and democratic path forward.
 
@@ -39,6 +38,18 @@ Loreum represents a significant advancement in decentralized governance protocol
 In a rapidly evolving DeFi landscape, protocols like Loreum are crucial for fostering trust, democratizing decision-making, and empowering communities. With its innovative approach, Loreum paves the way for a more equitable and participatory future in blockchain governance, where the collective wisdom of the community guides the evolution of decentralized systems.
 
 [Mint Explorer NFT](https://loreum.org) and become an early Loreum DAO member.
+
+
+<img src="https://ipfs.loreum.org/ipfs/QmfPWZ6VuFyLqTY92RRCCGRQxUKAhBAHs4vJb7wCT15hZr/44" width="10%" /> <space />
+<img src="https://ipfs.loreum.org/ipfs/QmfPWZ6VuFyLqTY92RRCCGRQxUKAhBAHs4vJb7wCT15hZr/45" width="10%"/> <space />
+<img src="https://ipfs.loreum.org/ipfs/QmfPWZ6VuFyLqTY92RRCCGRQxUKAhBAHs4vJb7wCT15hZr/46" width="10%"/> <space />
+<img src="https://ipfs.loreum.org/ipfs/QmfPWZ6VuFyLqTY92RRCCGRQxUKAhBAHs4vJb7wCT15hZr/47" width="10%"/> <space />
+<img src="https://ipfs.loreum.org/ipfs/QmfPWZ6VuFyLqTY92RRCCGRQxUKAhBAHs4vJb7wCT15hZr/48" width="10%"/> <space />
+<img src="https://ipfs.loreum.org/ipfs/QmfPWZ6VuFyLqTY92RRCCGRQxUKAhBAHs4vJb7wCT15hZr/49" width="10%"/> <space />
+<img src="https://ipfs.loreum.org/ipfs/QmfPWZ6VuFyLqTY92RRCCGRQxUKAhBAHs4vJb7wCT15hZr/50" width="10%"/> <space />
+<img src="https://ipfs.loreum.org/ipfs/QmfPWZ6VuFyLqTY92RRCCGRQxUKAhBAHs4vJb7wCT15hZr/51" width="10%"/> <space />
+<img src="https://ipfs.loreum.org/ipfs/QmfPWZ6VuFyLqTY92RRCCGRQxUKAhBAHs4vJb7wCT15hZr/52" width="10%"/> <space />
+
 
 
 <!-- 
