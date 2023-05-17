@@ -56,7 +56,7 @@ export function FooterLogoDisplay() {
 export default function FooterDisplay() {
   return (
     <>
-    <FooterLogoDisplay />
+    {/* <FooterLogoDisplay /> */}
     <div className={styles.flex__box}>
 
       <div className={styles.features__link}>

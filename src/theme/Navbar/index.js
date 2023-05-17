@@ -24,7 +24,7 @@ function NavbarImageLogo() {
             <img src='https://cdn.loreum.org/logos/black.svg' alt='black' />
           </div>
       </div>
-      <p className={styles.text_logo}>Loreum</p>
+      {/* <p className={styles.text_logo}>Loreum</p> */}
     </Link>
   );
 }
