@@ -49,11 +49,15 @@
   --ifm-color-footer: #1c1e21;
   --ifm-width-image-white: 3rem;
   --ifm-width-image-dark: 0;
-  --ifm-code-font-size: 95%;
+  --ifm-code-font-size: 95%;  
 }
 
 body {
   font-family: 'Cairo', sans-serif;
+}
+
+article {
+  font-size: 1.3rem;
 }
 
 .highlight {
