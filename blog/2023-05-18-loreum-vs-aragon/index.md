@@ -4,7 +4,6 @@ title: "Loreum: Empowering True Decentralized Governance as an Alternative to Ar
 authors: [john, chad]
 tags: [loreum, aragon, dao]
 image: https://ipfs.loreum.org/ipfs/QmfPWZ6VuFyLqTY92RRCCGRQxUKAhBAHs4vJb7wCT15hZr/56
-
 ---
 
 <br />
