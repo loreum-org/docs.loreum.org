@@ -23,10 +23,10 @@ function Footer() {
   const {links} = footer;
   return (
       <>
-        <FooterLayout
+        {/* <FooterLayout
           className={styles.footer__bg}
           links={links && links.length > 0 && <FooterLinks links={links} />}
-          />
+          /> */}
         <FooterDisplay />
       </>
   );
