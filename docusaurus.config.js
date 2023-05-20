@@ -40,8 +40,8 @@ const config = {
           showReadingTime: true,
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/loreum-org/docs.loreum.org/',
+          // editUrl:
+          //   'https://github.com/loreum-org/docs.loreum.org/',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
