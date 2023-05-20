@@ -6,7 +6,7 @@ tags: [loreum, treasury, defi]
 image: ontology.jpeg
 ---
 
-![Loreum's Chamber contracts provide a novel approach to treasury management on Ethereum.](./img/ontology.jpeg)
+![Loreum's Chamber contracts provide a novel approach to treasury management on Ethereum.](./img/board.jpeg)
 
 The traditional private equity and investment industry has long been characterized by centralized decision-making, limited transparency, and restricted access for smaller investors. However, with the advent of decentralized finance (DeFi) on the Ethereum blockchain, Loreum’s Chamber protocol can disrupt the status quo. Loreum is building a treasury management system that leverages the power of smart contracts to create a decentralized leaderboard of decision makers, offering a more inclusive and transparent investment landscape. In this article, we will explore the use case for Loreum's Chamber contracts and discuss how they are reshaping the private equity and investment industry.
 
