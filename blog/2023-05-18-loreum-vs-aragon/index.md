@@ -3,12 +3,13 @@ slug: loreum-vs-aragon
 title: "Loreum: Empowering True Decentralized Governance as an Alternative to AragonDAO"
 authors: [john, chad]
 tags: [loreum, aragon, dao]
-image: https://ipfs.loreum.org/ipfs/QmfPWZ6VuFyLqTY92RRCCGRQxUKAhBAHs4vJb7wCT15hZr/56
 ---
 
 <br />
 
 In the realm of decentralized finance (DeFi) and blockchain governance, the concept of decentralization is often touted as a cornerstone principle. However, recent events have exposed the limitations of some purportedly decentralized protocols. AragonDAO, once hailed as a decentralized governance solution, has faced criticism for its centralized decision-making and capital control. Enter Loreum, a groundbreaking protocol that not only addresses the shortcomings of AragonDAO but also introduces dynamic governance and accountability through a unique staking mechanism. In this article, we will explore why Loreum represents a promising alternative to AragonDAO and offers a more transparent and democratic path forward.
+
+<!-- truncate -->
 
 <h3>The Challenges with AragonDAO</h3>
 
@@ -49,26 +50,3 @@ In a rapidly evolving DeFi landscape, protocols like Loreum are crucial for fost
 <img src="https://ipfs.loreum.org/ipfs/QmfPWZ6VuFyLqTY92RRCCGRQxUKAhBAHs4vJb7wCT15hZr/49" width="10%"/> <space />
 <img src="https://ipfs.loreum.org/ipfs/QmfPWZ6VuFyLqTY92RRCCGRQxUKAhBAHs4vJb7wCT15hZr/50" width="10%"/> <space />
 <img src="https://ipfs.loreum.org/ipfs/QmfPWZ6VuFyLqTY92RRCCGRQxUKAhBAHs4vJb7wCT15hZr/51" width="10%"/> <space />
-<img src="https://ipfs.loreum.org/ipfs/QmfPWZ6VuFyLqTY92RRCCGRQxUKAhBAHs4vJb7wCT15hZr/52" width="10%"/> <space />
-
-
-
-<!-- 
-[Docusaurus blogging features](https://docusaurus.io/docs/blog) are powered by the [blog plugin](https://docusaurus.io/docs/api/plugins/@docusaurus/plugin-content-blog).
-
-Simply add Markdown files (or folders) to the `blog` directory.
-
-Regular blog authors can be added to `authors.yml`.
-
-The blog post date can be extracted from filenames, such as:
-
-- `2019-05-30-welcome.md`
-- `2019-05-30-welcome/index.md`
-
-A blog post folder can be convenient to co-locate blog post images:
-
-![Docusaurus Plushie](./docusaurus-plushie-banner.jpeg)
-
-The blog supports tags as well!
-
-**And if you don't want a blog**: just delete this directory, and use `blog: false` in your Docusaurus config. -->
