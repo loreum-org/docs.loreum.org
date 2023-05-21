@@ -3,12 +3,12 @@ slug: intro-to-loreum
 title: "What is Loreum?"
 authors: [daniel, chad]
 tags: [chambers, loreum, defi, dao]
+image: "./nft58.png"
 ---
 
 <br />
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/fHmJ2UUW1JU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-
+![We are excited to introduce you to Loreum – a groundbreaking platform designed to revolutionize governance and transparency in the world of decentralized finance.](./nft58.png)
 
 We are excited to introduce you to Loreum – a groundbreaking platform designed to revolutionize governance and transparency in the world of decentralized finance. Let's explore how Loreum's innovative approach is shaping the future of DeFi.
 <!-- truncate -->
@@ -26,3 +26,6 @@ Within chambers, voting rights are determined by staking ERC-20 tokens against N
 Additionally, Loreum Chambers provide token utility for tokens by retroactively upgrading existing DAOs. They embrace the best of both NFT and ERC20 markets, resist Sibyl vote delegation, and increase transparency for governance and decisions while maintaining individual privacy for leaders.
 
 As the DeFi space continues to evolve, keep an eye on Loreum as a key player in this dynamic ecosystem. We hope you're as excited about Loreum's potential as we are. For more information or to get involved, please visit our website Loreum.org. Together, let's build a brighter future for decentralized finance.
+
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/fHmJ2UUW1JU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
