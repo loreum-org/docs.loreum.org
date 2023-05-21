@@ -5,7 +5,10 @@ authors: [daniel, chad]
 tags: [chambers, loreum, defi, dao]
 ---
 
-<br>
+<br />
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/fHmJ2UUW1JU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
 
 We are excited to introduce you to Loreum – a groundbreaking platform designed to revolutionize governance and transparency in the world of decentralized finance. Let's explore how Loreum's innovative approach is shaping the future of DeFi.
 <!-- truncate -->
