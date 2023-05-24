@@ -16,32 +16,32 @@ import styles from './styles.module.css';
 
 const features = [
   {
-    title: 'Easy to Use',
-    imageUrl: 'img/undraw_docusaurus_mountain.svg',
+    title: 'Permissionless',
+    imageUrl: 'https://images-ext-1.discordapp.net/external/dgGvsOEqEmUXKYI4K4B0MGfhVcFMo86CPbmF9M86pzc/https/ipfs.loreum.org/ipfs/QmfPWZ6VuFyLqTY92RRCCGRQxUKAhBAHs4vJb7wCT15hZr/5531',
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+        {/* Docusaurus was designed from the ground up to be easily installed and
+        used to get your website up and running quickly. */}
       </>
     ),
   },
   {
-    title: 'Focus on What Matters',
-    imageUrl: 'img/undraw_docusaurus_tree.svg',
+    title: 'Decentralized',
+    imageUrl: 'https://ipfs.loreum.org/ipfs/QmfPWZ6VuFyLqTY92RRCCGRQxUKAhBAHs4vJb7wCT15hZr/5539',
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+        {/* Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
+        ahead and move your docs into the <code>docs</code> directory. */}
       </>
     ),
   },
   {
-    title: 'Powered by React',
-    imageUrl: 'img/undraw_docusaurus_react.svg',
+    title: 'Trusted',
+    imageUrl: 'https://ipfs.loreum.org/ipfs/QmfPWZ6VuFyLqTY92RRCCGRQxUKAhBAHs4vJb7wCT15hZr/5538',
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        {/* Extend or customize your website layout by reusing React. Docusaurus can
+        be extended while reusing the same header and footer. */}
       </>
     ),
   },
@@ -68,7 +68,7 @@ export default function Home() {
   return (
     <Layout
       title={`${siteConfig.title}`}
-      description="Description will go into a meta tag in <head />">
+      description="Loreum DAO is a governance standard.">
       <header className={clsx(styles.heroBanner)}>
         <div className="container">
           <h1 className={styles.hero__title}>{siteConfig.title}</h1>

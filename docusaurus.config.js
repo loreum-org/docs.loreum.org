@@ -12,7 +12,7 @@
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'Loreum',
-  tagline: 'Godspeed',
+  tagline: 'Govern Better',
   url: 'https://docs.loreum.org',
   baseUrl: '/',
   onBrokenLinks: 'throw',
@@ -64,6 +64,11 @@ const config = {
           // },
           {to: 'blog', label: 'Blog', position: 'left'},
           // Please keep GitHub link to the right for consistency.
+          {
+            to: 'https://loreum.org',
+            label: 'Loreum',
+            position: 'right',
+          },
           {
             to: 'https://github.com/loreum-org',
             label: 'GitHub',
