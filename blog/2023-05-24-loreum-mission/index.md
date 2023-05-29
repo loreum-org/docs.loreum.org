@@ -11,6 +11,8 @@ image: "./rings.png"
 
 At Loreum DAO, we are driven by a singular purpose: to redefine the way smart contract governance is conducted. Just as early entrepreneurs in Amsterdam changed the course of modern history with Joint-Stock companies, we aim to disrupt the norms and usher in a new era of decentralized decision-making and human coordination. 
 
+<!-- truncate -->
+
 Our mission is to establish a standard, an unparalleled benchmark in smart contract governance. We believe that every line of code, every transaction, every decision made within the ecosystem of your online community should be governed with utmost efficiency, transparency, and fairness. 
 
 We dare to challenge the status quo. We understand that innovation comes from questioning, experimenting, and pushing the boundaries within which nations rule. We will fearlessly embrace these principles, striving to create a governance framework that is not only robust but also adaptable to the ever-evolving needs of a global, digital workforce.
