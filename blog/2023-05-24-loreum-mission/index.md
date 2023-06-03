@@ -1,7 +1,7 @@
 ---
 slug: loreum-mission
 title: "Govern better with Loreum"
-authors: [chad]
+authors: [bones]
 tags: [loreum, dao, chamber, mission]
 image: "./rings.png"
 ---

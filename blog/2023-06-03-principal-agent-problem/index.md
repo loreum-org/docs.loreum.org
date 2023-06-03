@@ -1,7 +1,7 @@
 ---
 slug: principal-agent-problem
 title: "Principal Agent Problem in Governance"
-authors: [chad]
+authors: [bones]
 tags: [loreum, dao, philosophy, economics]
 ---
 

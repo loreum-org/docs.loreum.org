@@ -1,7 +1,7 @@
 ---
 slug: intro-to-loreum
 title: "What is Loreum?"
-authors: [daniel, chad]
+authors: [danny, bones]
 tags: [chambers, loreum, defi, dao]
 image: "./nft58.png"
 ---

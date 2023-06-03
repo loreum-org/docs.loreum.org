@@ -1,7 +1,7 @@
 ---
 slug: defi-dao-governance-with-chambers
 title: "Chambers improve DeFi protocol governance"
-authors: [chad]
+authors: [bones]
 tags: [loreum, dao, chamber, challenges]
 image: "devs_dao_meme.jpeg.jpeg"
 ---

@@ -1,7 +1,7 @@
 ---
 slug: loreum-vs-aragon
 title: "Loreum: Empowering True Decentralized Governance as an Alternative to AragonDAO"
-authors: [john, chad]
+authors: [johnny, bones]
 tags: [loreum, aragon, dao]
 ---
 

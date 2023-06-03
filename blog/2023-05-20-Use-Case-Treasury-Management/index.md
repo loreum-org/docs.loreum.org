@@ -1,7 +1,7 @@
 ---
 slug: use-case-treasury-management
 title: "Loreum Chamber: Revolutionizing Treasury Management on Ethereum"
-authors: [chad]
+authors: [bones]
 tags: [loreum, treasury, defi]
 image: "./img/board.jpeg"
 ---
