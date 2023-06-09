@@ -1,17 +1,17 @@
 johnny:
   name: "Johnny"
-  title: "Technical Co-Founder"
+  title: "Developer"
   url: "https://github.com/pseudonaut"
   image_url: "https://ipfs.loreum.org/ipfs/QmfPWZ6VuFyLqTY92RRCCGRQxUKAhBAHs4vJb7wCT15hZr/1"
 
 bones:
   name: "Bones"
-  title: "Technical Co-Founder"
+  title: "Founder"
   url: "https://github.com/xhad"
   image_url: "https://ipfs.loreum.org/ipfs/QmfPWZ6VuFyLqTY92RRCCGRQxUKAhBAHs4vJb7wCT15hZr/37"
 
 danny:
   name: "Danny"
-  title: "Business Co-Founder"
+  title: "Head of Growth"
   url: "https://www.linkedin.com/in/daniel-lynch-62030229/"
   image_url: "https://ipfs.loreum.org/ipfs/QmfPWZ6VuFyLqTY92RRCCGRQxUKAhBAHs4vJb7wCT15hZr/5"
