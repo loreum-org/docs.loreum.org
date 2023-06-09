@@ -21,7 +21,6 @@ The Shapley-Shubik Index is based on the idea that voters join sequentially in a
 <h3>Comparison and Applications</h3>
 Both the Banzhaf Index and the Shapley-Shubik Index provide insights into voting power, but they approach the problem from different angles. While the Banzhaf Index focuses on swing votes and pivotal players, the Shapley-Shubik Index emphasizes the sequential contribution of voters.
 
-
 These indices find applications in various fields. In political science, they help analyze power structures within legislative bodies, assess the influence of individual legislators, and identify potential coalitions that can shape policy outcomes. Additionally, these indices have been used in corporate governance, shareholder voting, and decision-making processes within organizations.
 
 The Banzhaf Index and the Shapley-Shubik Index offer valuable tools to analyze and understand voting power in collective decision-making scenarios. These indices provide quantitative measures that highlight the influence of individual voters and shed light on power dynamics within voting systems. By employing these mathematical models, researchers, policymakers, and organizations can gain valuable insights into the distribution of power, potential alliances, and the impact of individual voters on decision outcomes.
