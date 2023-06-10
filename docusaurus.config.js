@@ -12,7 +12,7 @@
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'Loreum',
-  tagline: 'Govern Better',
+  tagline: 'Composable Governance',
   url: 'https://docs.loreum.org',
   baseUrl: '/',
   onBrokenLinks: 'throw',
